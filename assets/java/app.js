@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 function myFunction() {
     var x = document.getElementById("myDIV");
     if (x.style.display === "none") {
@@ -39,4 +37,3 @@ function displaySearch()
 
 };
 $(document).on('click', 'submitButton', displaySearch);
->>>>>>> 5fedf9a5a1281c94d0e65933b7919b0dd340d29a
