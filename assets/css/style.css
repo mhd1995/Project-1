@@ -1,19 +1,18 @@
-.jumbotron-fluid {
-    text-align: center;
+body {
+    background-image: url(http://aws-cf.ados.fr/prod/articles/7/0/2/8088702/4762168/big-476216842e.jpg?v=4);
 }
-.guestStart {
-   align-content: center;
-}
-.entireForm {
-    align-content: center;
-    margin: auto
-   
-}
-footer {
-    text-align: center;
-}
-.w-50 p-3 {
+.bS {
     align-content: center;
     text-align: center;
-    align-self: center;
+    
+}
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.row {
+    align-content: center;
 }
