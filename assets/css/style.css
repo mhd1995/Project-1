@@ -20,8 +20,10 @@ body {
 .currentWeather {
     float: left;
     background-color: black;
+    color: white;
 }
 .cityWeather {
     float: right;
     background-color: black;
+    color: white;
 }

@@ -1,39 +1,14 @@
-function myFunction() {
-    var x = document.getElementById("myDIV");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-}
+// // I am not sure if this is corret, however I assume I put the database here...
+// <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
 
-function displaySearch()
-{
-    var song = $('#favSong').val().trim();
-    var artist = $('#favArtist').val().trim();
-    var queryURL = 'http://api.onemusicapi.com/20151208/track?user_key=e0209eb6caec689f7566faf9cfb6e44b&title='+song+'&artist='+artist;
-    $.ajax({
-        url: queryURL,
-        method: 'GET'
-    })
+//     var config = {
+//     apiKey: "AIzaSyCEswMS_pidVQbZ3f4ijKpEcgWRlJHLBPU",
+//     authDomain: "cityfo-2b4f6.firebaseapp.com",
+//     databaseURL: "https://cityfo-2b4f6.firebaseio.com",
+//     projectId: "cityfo-2b4f6",
+//     storageBucket: "cityfo-2b4f6.appspot.com",
+//     messagingSenderId: "990324702599"
+//   };
+//   firebase.initializeApp(config);
 
-    .done(function(response)
-    {
-        console.log(response);
-        $('#songView').empty();
-        var results = response.data;
-        for(var i=0; i<results.length; i++)
-        {
-            var songDiv= $('<div>');
-            songDiv.addClass('gifDiv');
-            var songImg =$('<img>');
-            songImg.attr('src',results[i]);//apijsoncall. to get imageurl)
-            songImg.addClass('songImage');
-            songDiv.append(songImg);
-            $('#songDiv').prepend(songImg);
-
-        }
-    })
-
-};
-$(document).on('click', 'submitButton', displaySearch);
+ 
