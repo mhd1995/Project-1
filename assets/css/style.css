@@ -27,3 +27,7 @@ body {
     background-color: black;
     color: white;
 }
+#submit {
+    align-content: center;
+    text-align: center;
+}

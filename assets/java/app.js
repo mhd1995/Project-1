@@ -11,4 +11,10 @@
 //   };
 //   firebase.initializeApp(config);
 
- 
+$( document ).ready(function(){
+
+    $("button").click(function(){
+        $("#bS").toggle();
+    });
+
+});``
