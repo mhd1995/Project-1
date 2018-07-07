@@ -13,6 +13,21 @@ body {
     width: 100%;
     text-align: center;
 }
-.row {
+.container {
     align-content: center;
+    text-align: center;
+}
+.currentWeather {
+    float: left;
+    background-color: black;
+    color: white;
+}
+.cityWeather {
+    float: right;
+    background-color: black;
+    color: white;
+}
+#submit {
+    align-content: center;
+    text-align: center;
 }
